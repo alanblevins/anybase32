@@ -5,6 +5,8 @@ anybase32 is a tiny Python package for encoding and decoding base32 strings
 using arbitrary 32-character alphabets. Useful for working with non-standard
 base32 data from third party sources.
 
+Works great on Python2. Fails terribly with Python3.
+
 Usage
 -----
 
