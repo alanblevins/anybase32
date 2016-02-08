@@ -20,7 +20,7 @@ encoded = anybase32.encode(sample_text, arbitrary_alphabet)
 
 print encoded
 
-decoded = anybase32.edcode(encoded, arbitrary_alphabet)
+decoded = anybase32.decode(encoded, arbitrary_alphabet)
 
 print decoded
 ```
